@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-native/
+build/
+*.tsbuildinfo
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+!client/.env.native
+
+# SQLite databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+server/data/
+
+# Test artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Local scratch scripts
+*.tmp.mjs
+
+# E2E test database
+.e2e-data/
+client/ios/build/
+client/ios/App/App/public/
+client/.env.native.local
+
+# Database backups (contain player data)
+backups/
+
+client/.impeccable/hook.cache.json
